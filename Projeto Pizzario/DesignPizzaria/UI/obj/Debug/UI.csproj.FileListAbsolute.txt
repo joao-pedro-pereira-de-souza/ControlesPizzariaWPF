@@ -1,0 +1,116 @@
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\bin\Debug\UI.exe.config
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\bin\Debug\UI.exe
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\bin\Debug\UI.pdb
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\MainWindow.g.cs
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\App.g.cs
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI_MarkupCompile.cache
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI_MarkupCompile.lref
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\MainWindow.baml
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI.g.resources
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI.exe
+C:\Users\JOÃO\source\repos\DesignPizzaria\UI\obj\Debug\UI.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\UI.exe.config
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\UI.exe
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\UI.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\App.g.cs
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI_MarkupCompile.cache
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI_MarkupCompile.lref
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.g.resources
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.exe
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\ControlzEx.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\ControlzEx.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\ControlzEx.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MaterialDesignColors.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\App.baml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\Home.g.cs
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\Login.g.cs
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\Home.baml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\Login.baml
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\PgPrincipal.g.cs
+C:\Users\JOÃO\OneDrive\Área de Trabalho\Design\DesignPizzaria\UI\obj\Debug\PgPrincipal.baml
