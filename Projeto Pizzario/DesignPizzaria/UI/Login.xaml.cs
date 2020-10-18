@@ -28,6 +28,8 @@ namespace UI
             InitializeComponent();
         }
 
+        #region DesignButton
+
         private void BtnLogar_MouseEnter(object sender, MouseEventArgs e)
         {
             var converter = new BrushConverter();
@@ -67,6 +69,7 @@ namespace UI
             txbcad.Foreground = brush;
             btnCadastrar.BorderThickness = new Thickness(1, 1, 1, 1);
         }
+        #endregion
 
         private void BtnCadastrar_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -80,7 +83,26 @@ namespace UI
 
         private void BtnLogar_MouseDown(object sender, MouseButtonEventArgs e)
         {
+
+            ControlUser.ControlDatabase controlbd = new ControlUser.ControlDatabase();
+            if(controlbd.VerificarDado("dtUsuarios" , "userEmail" , txtUserName.Text) == true)
+            {
+
+                if(controlbd.VerificarDado("dtUsuarios", "userPassword", txtUserName.Text) == true)
+                {
+
+                }
+                else
+                {
+
+                }
+            }
+            else
+            {
+
+            }
             // fonte : https://www.youtube.com/watch?v=STKS803c-3c.
+
             Home home = new Home();
             home.Owner = this;
 
