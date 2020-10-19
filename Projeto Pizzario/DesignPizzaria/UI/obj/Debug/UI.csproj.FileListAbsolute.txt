@@ -224,3 +224,5 @@ C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\
 C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\UI\obj\Debug\UI.csproj.GenerateResource.cache
 C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\UI\obj\Debug\CadProd.g.cs
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\UI\obj\Debug\CadProd.baml

@@ -10,20 +10,11 @@ namespace ControlUser
     public class ControlDatabase
     {
 
-        public bool VerificarDado(string nameTable, string whereColumns, string seach)
+        public bool VerificarDado(string cmd)
         {
             DataAcess.ControlDatabase bd = new DataAcess.ControlDatabase();
 
-            DataTable dt = bd.SeachTable(nameTable, whereColumns, seach);
-
-            if(dt.Rows == null)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+            return bd.VerificaDado(cmd);
 
         }
 

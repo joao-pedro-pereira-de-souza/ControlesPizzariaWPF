@@ -165,7 +165,7 @@
             </Rectangle.RenderTransform>
         </Rectangle>
 
-        <Label Content="Erro" x:Name="lblLoding" Foreground="White" FontWeight="SemiBold" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden" Margin="341.31,145.123,341.31,260.876" />
+        <Label Content="Loading" x:Name="lblLoding" Foreground="White" FontWeight="SemiBold" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden" Margin="341.31,145.123,341.31,260.876" />
 
         <Label Content="erro" x:Name="lblAnimaLoading" FontWeight="Normal" Foreground="White" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"  Visibility="Hidden" Height="130" Width="600" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>

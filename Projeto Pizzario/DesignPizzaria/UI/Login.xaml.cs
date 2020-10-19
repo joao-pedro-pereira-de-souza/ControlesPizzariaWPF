@@ -100,51 +100,67 @@ namespace UI
 
         private void BtnLogar_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            stb.Begin();
-            stbLbl.Begin();
+            
 
             try
             {
-
-
-
+                stb.Begin();
+                stbLbl.Begin();
 
                 ControlUser.ControlDatabase controlbd = new ControlUser.ControlDatabase();
 
+                string cmd = string.Format("Select emailuser,senha from userclient where emailuser ='{0}' and senha='{1}'", txtUserName.Text, txtSenha.Password.ToString());
 
-                if (controlbd.VerificarDado("userclient", "emailUser", txtUserName.Text) == true)
+                if (controlbd.VerificarDado(cmd) == true)
                 {
 
-                    if (controlbd.VerificarDado("userclient", "senha", txtUserName.Text) == true)
-                    {
-                        // fonte : https://www.youtube.com/watch?v=STKS803c-3c.
 
-                        Home home = new Home();
-                        home.Owner = this;
+                    /*
+                    // fonte : https://www.youtube.com/watch?v=STKS803c-3c.
 
-                        this.Hide();
+                    Home home = new Home();
+                    home.Owner = this;
 
-                        home.ShowDialog();
-                    }
-                    else
-                    {
+                    this.Hide();
 
-                    }
+                    home.ShowDialog();
+                    */
+
+                    CadProd cad = new CadProd();
+
+                    cad.Owner = this;
+                    this.Hide();
+                    cad.ShowDialog();
+
                 }
                 else
                 {
+                    // Remove
+                    stb.Remove();
+                    stbLbl.Remove();
 
                     var converter = new BrushConverter();
-                    var brush = (Brush)converter.ConvertFromString("#E7892E");
+                    var brush = (Brush)converter.ConvertFromString("#ff6b6b");
 
                     rectangle.Fill = brush;
 
-                    
-                    stb.Remove();
-                    stbLbl.Remove();
-                    
+                    lblLoding.Content = "Erro";
+
+                    lblLoding.FontSize = 30;
+
+                    stbErro.Begin();
+
+                    lblAnimaLoading.Content = "Erro: \n Campos incorretos";
+
+
+                    dt.Interval = TimeSpan.FromSeconds(5);
+
+                    dt.Tick += dtTick;
+                    dt.Start();
+
+
                 }
-         
+
 
             }
             catch (Exception ex)
@@ -153,6 +169,16 @@ namespace UI
                 // Remove
                 stb.Remove();
                 stbLbl.Remove();
+
+                var converter = new BrushConverter();
+                var brush = (Brush)converter.ConvertFromString("#ff6b6b");
+
+                rectangle.Fill = brush;
+
+                lblLoding.Content = "Erro";
+
+                lblLoding.FontSize = 30;
+               
                 stbErro.Begin();
 
                 lblAnimaLoading.Content = "Erro: \n" + ex.Message;
@@ -176,7 +202,12 @@ namespace UI
             dt.Stop();
         }
 
-       
+        private void TickLoading(object sender, EventArgs e)
+        {
+            dt.Stop();
+        }
+
+
 
         private void PnlTop_MouseDown(object sender, MouseButtonEventArgs e)
         {
