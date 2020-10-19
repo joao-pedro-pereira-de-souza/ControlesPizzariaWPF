@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
         
-           xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         
         Title="CadProd" Height="540" Width="800" AllowsTransparency="True" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="Transparent" Foreground="White" FontWeight="Bold">
     <Border CornerRadius="8" Height="530" Width="790" Background="White">
@@ -47,7 +47,7 @@
                         <StackPanel Orientation="Vertical">
 
                             <!--#region Process01-->
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0">
 
                                 <Border Background="#ff9f43" Height="30" Width="30" CornerRadius="30">
                                     <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
@@ -62,14 +62,14 @@
                             <!--#endregion-->
 
                             <!--#region Process02-->
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0">
 
                                 <Border Background="#ff9f43" Height="30" Width="30" CornerRadius="30">
                                     <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
                                         <materialDesign:PackIcon Kind="Reload" />
                                     </Grid>
                                 </Border>
-                                <TextBlock Text="Principais Dados" VerticalAlignment="Center" FontSize="20" Margin="10,0,0,0"/>
+                                <TextBlock Text="Principais" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="20" Margin="10,0,0,0"/>
                             </StackPanel>
 
                             <TextBlock Text="Adicione os dados ecensiais de um produto, nome, preço, validade e quantidade" TextWrapping="Wrap" Padding="10" Margin="30,10,0,0"/>
@@ -105,12 +105,115 @@
 
                     <Grid>
 
-                        <Image Height="180" VerticalAlignment="Top" Source="/Imagens/imgImage.png" Stretch="None" />
+                        <Image Height="180" VerticalAlignment="Top" Source="/Imagens/imgImage.png" Stretch="None"/>
 
-                        <Border x:Name="btnBrowserImage" MouseDown="BtnBrowserImage_MouseDown" Width="140" Height="35" VerticalAlignment="Bottom" Background="#feca57" CornerRadius="8" Margin="0,0,0,10">
-                            <TextBlock Text="Brower" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <Border x:Name="btnBrowserImage" MouseDown="BtnBrowserImage_MouseDown" Width="120" Height="30" VerticalAlignment="Bottom" Background="#feca57" CornerRadius="8" Margin="0,0,0,10">
+                            <TextBlock Text="Brower" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                         </Border>
                     </Grid>
+
+                    <StackPanel Orientation="Vertical">
+
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+
+                            <Border Width="240" Height="45" Cursor="IBeam" HorizontalAlignment="Left" Margin="10,10,0,0" Background="#E6E6E6" CornerRadius="6">
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <materialDesign:PackIcon Kind="Pizza" Foreground="#feca57" VerticalAlignment="Center" Height="20" Width="20" HorizontalAlignment="Center"/>
+
+                                    <TextBox Grid.Column="1" 
+                                   FontSize="15" TextAlignment="Left" VerticalAlignment="Center"
+                                   materialDesign:HintAssist.Hint="Nome do Produto"
+                                   materialDesign:HintAssist.Foreground="#FF9F43"
+                                   materialDesign:TextFieldAssist.DecorationVisibility="Hidden" 
+                                   CaretBrush="#FFE6E6E6" BorderBrush="#FFE6E6E6" SelectionBrush="#FFE7892E" Foreground="#FFFECA57"
+                                   
+                                     />
+
+                                </Grid>
+                            </Border>
+
+
+                            <Border Width="240" Height="45" Cursor="IBeam" HorizontalAlignment="Left" Margin="30,10,0,0" Background="#E6E6E6" CornerRadius="6">
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <materialDesign:PackIcon Kind="Pizza" Foreground="#feca57" VerticalAlignment="Center" Height="20" Width="20" HorizontalAlignment="Center"/>
+
+                                    <TextBox Grid.Column="1" 
+                                   FontSize="15" TextAlignment="Left" VerticalAlignment="Center"
+                                   materialDesign:HintAssist.Hint="Preço"
+                                   materialDesign:HintAssist.Foreground="#FF9F43"
+                                   materialDesign:TextFieldAssist.DecorationVisibility="Hidden" 
+                                   CaretBrush="#FFE6E6E6" BorderBrush="#FFE6E6E6" SelectionBrush="#FFE7892E" Foreground="#FFFECA57"
+                                   
+                                     />
+
+                                </Grid>
+                            </Border>
+
+
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+
+                            <Border Width="240" Height="45" Cursor="IBeam" HorizontalAlignment="Left" Margin="10,10,0,0" Background="#E6E6E6" CornerRadius="6">
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <materialDesign:PackIcon Kind="Numeric10BoxMultiple" Foreground="#feca57" VerticalAlignment="Center" Height="20" Width="20" HorizontalAlignment="Center"/>
+
+                                    <TextBox Grid.Column="1" 
+                                   FontSize="15" TextAlignment="Left" VerticalAlignment="Center"
+                                   materialDesign:HintAssist.Hint="Quantidade"
+                                   materialDesign:HintAssist.Foreground="#FF9F43"
+                                   materialDesign:TextFieldAssist.DecorationVisibility="Hidden" 
+                                   CaretBrush="#FFE6E6E6" BorderBrush="#FFE6E6E6" SelectionBrush="#FFE7892E" Foreground="#FFFECA57"
+                                   
+                                     />
+
+                                </Grid>
+                            </Border>
+
+
+                            <Border Width="240" Height="45" Cursor="IBeam" HorizontalAlignment="Left" Margin="30,10,0,0" Background="#E6E6E6" CornerRadius="6">
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <materialDesign:PackIcon Kind="CalendarRange" Foreground="#feca57" VerticalAlignment="Center" Height="20" Width="20" HorizontalAlignment="Center"/>
+                                        <DatePicker Grid.Column="1"  BorderBrush="#FFFECA57"
+                                                    materialDesign:TextFieldAssist.UnderlineBrush="#E7892E"
+                                                    materialDesign:HintAssist.Foreground="#FF9F43" OpacityMask="#FFFECA57"
+                                     />
+
+                                </Grid>
+                            </Border>
+
+
+                        </StackPanel>
+
+
+                    </StackPanel>
 
                 </StackPanel>
                
