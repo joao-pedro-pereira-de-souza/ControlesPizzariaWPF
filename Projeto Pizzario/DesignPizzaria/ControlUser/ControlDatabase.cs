@@ -27,5 +27,14 @@ namespace ControlUser
 
         }
 
+        public DataTable ShowTable(string table)
+        {
+            DataAcess.ControlDatabase bd = new DataAcess.ControlDatabase();
+
+           return bd.ShowTable(table);
+
+
+        }
+
     }
 }

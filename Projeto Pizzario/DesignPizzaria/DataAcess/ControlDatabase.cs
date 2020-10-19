@@ -16,6 +16,7 @@ namespace DataAcess
            
             using(MySqlConnection cone = Connection())
             {
+
                 MySqlCommand cmd = new MySqlCommand();
 
                 MySqlDataReader rd;
@@ -24,18 +25,14 @@ namespace DataAcess
 
                 cone.Open();
 
-      
                 cmd.Connection = cone;
-                cmd.CommandText = "Select * " + nameTable;
+                cmd.CommandText = "Select * from " + nameTable;
                 cmd.CommandType = CommandType.Text;
 
                 rd = cmd.ExecuteReader();
-
                 dt.Load(rd);
 
                 return dt;
-
-
 
             }
         }
@@ -53,14 +50,14 @@ namespace DataAcess
 
                 cone.Open();
 
-                string formatText = string.Format("Select * {0} where {1} Link %{2}%", nameTable, whereColumns, seach);
+                string formatText = string.Format("Select {0} from {1} where {2} Link %{3}%",whereColumns, nameTable, whereColumns, seach);
 
                 cmd.Connection = cone;
                 cmd.CommandText = formatText;
                 cmd.CommandType = CommandType.Text;
 
                 rd = cmd.ExecuteReader();
-
+               
                 dt.Load(rd);
 
                 return dt;

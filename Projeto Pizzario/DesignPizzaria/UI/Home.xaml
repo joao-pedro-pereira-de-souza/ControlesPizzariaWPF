@@ -18,7 +18,7 @@
             </Grid.ColumnDefinitions>
 
             
-            <Frame x:Name="GridContainer" Grid.Column="1" NavigationUIVisibility="Hidden" ScrollBar.Scroll="GridContainer_Scrolltr">
+            <Frame x:Name="GridContainer" Grid.Column="1" >
                
             </Frame>
            

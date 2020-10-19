@@ -11,7 +11,7 @@ namespace DataAcess
     {
          protected  MySqlConnection Connection()
          {
-            return new MySqlConnection("Server=localhost;uid=root;password='';database=");
+            return new MySqlConnection("datasource=localhost;uid=root;password='';database=bdPizzaria");
          }
     }
 }

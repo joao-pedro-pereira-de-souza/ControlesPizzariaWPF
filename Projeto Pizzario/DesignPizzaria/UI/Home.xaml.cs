@@ -35,9 +35,6 @@ namespace UI
             GridContainer.Content = new PgPrincipal();
         }
 
-        private void GridContainer_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
-        {
-
-        }
+        
     }
 }

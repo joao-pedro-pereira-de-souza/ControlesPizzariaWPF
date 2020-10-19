@@ -1,0 +1,12 @@
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\bin\Debug\DataAcess.dll
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\bin\Debug\DataAcess.pdb
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\bin\Debug\MySql.Data.dll
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\bin\Debug\Google.Protobuf.dll
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\bin\Debug\Renci.SshNet.dll
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\obj\Debug\DataAcess.csprojAssemblyReference.cache
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\obj\Debug\DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\obj\Debug\DataAcess.csproj.CopyComplete
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\obj\Debug\DataAcess.dll
+C:\Users\JOÃO\OneDrive\Documentos\GitHub\ControlesPizzariaWPF\Projeto Pizzario\DesignPizzaria\DataAcess\obj\Debug\DataAcess.pdb

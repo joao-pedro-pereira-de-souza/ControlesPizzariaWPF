@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using System.Threading;
+using System.Windows.Media.Animation;
+using System.Windows.Threading;
 
 namespace UI
 {
@@ -22,10 +24,22 @@ namespace UI
     /// </summary>
     public partial class Login: Window
     {
-        Thread tr;
+        Storyboard stb;
+        Storyboard stbErro;
+        Storyboard stbLbl;
+
+       
         public Login()
         {
             InitializeComponent();
+
+            stb = this.FindResource("AnimatLoading") as Storyboard;
+            stbErro = this.FindResource("AnimatErro") as Storyboard;
+
+            stbLbl = this.FindResource("AnimaLbl") as Storyboard;
+
+            
+
         }
 
         #region DesignButton
@@ -81,36 +95,85 @@ namespace UI
             this.Close();
         }
 
+
+        DispatcherTimer dt = new DispatcherTimer();
+
         private void BtnLogar_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            stb.Begin();
+            stbLbl.Begin();
 
-            ControlUser.ControlDatabase controlbd = new ControlUser.ControlDatabase();
-            if(controlbd.VerificarDado("dtUsuarios" , "userEmail" , txtUserName.Text) == true)
+            try
             {
 
-                if(controlbd.VerificarDado("dtUsuarios", "userPassword", txtUserName.Text) == true)
+
+
+
+                ControlUser.ControlDatabase controlbd = new ControlUser.ControlDatabase();
+
+
+                if (controlbd.VerificarDado("userclient", "emailUser", txtUserName.Text) == true)
                 {
 
+                    if (controlbd.VerificarDado("userclient", "senha", txtUserName.Text) == true)
+                    {
+                        // fonte : https://www.youtube.com/watch?v=STKS803c-3c.
+
+                        Home home = new Home();
+                        home.Owner = this;
+
+                        this.Hide();
+
+                        home.ShowDialog();
+                    }
+                    else
+                    {
+
+                    }
                 }
                 else
                 {
 
+                    var converter = new BrushConverter();
+                    var brush = (Brush)converter.ConvertFromString("#E7892E");
+
+                    rectangle.Fill = brush;
+
+                    
+                    stb.Remove();
+                    stbLbl.Remove();
+                    
                 }
-            }
-            else
-            {
-
-            }
-            // fonte : https://www.youtube.com/watch?v=STKS803c-3c.
-
-            Home home = new Home();
-            home.Owner = this;
-
-            this.Hide();
-
-            home.ShowDialog();
          
 
+            }
+            catch (Exception ex)
+            {
+
+                // Remove
+                stb.Remove();
+                stbLbl.Remove();
+                stbErro.Begin();
+
+                lblAnimaLoading.Content = "Erro: \n" + ex.Message;
+
+
+                dt.Interval = TimeSpan.FromSeconds(5);
+
+                dt.Tick += dtTick;
+                dt.Start();
+
+
+            }
+
+            
+        }
+
+        private void dtTick(object sender , EventArgs e)
+        {
+            stbErro.Remove();
+
+            dt.Stop();
         }
 
        

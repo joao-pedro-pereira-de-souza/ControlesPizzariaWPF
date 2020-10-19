@@ -18,9 +18,75 @@
         
         Title="MainWindow" Height="450" Width="800"
         WindowStyle="None"  WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowState="Normal" ShowInTaskbar="False" 
-        
-        
+  
         >
+
+    <!--#region Animations -->
+
+    <Window.Resources>
+        <Storyboard x:Key="AnimatLoading">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectangle">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="rectangle">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="6.908"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="rectangle">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="6.908"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="lblLoding">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="lblAnimaLoading">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="AnimaLbl" RepeatBehavior="Forever">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="lblAnimaLoading">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ContentControl.Content)" Storyboard.TargetName="lblAnimaLoading">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="..."/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="."/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value=".."/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6" Value="..."/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+
+
+
+        <Storyboard x:Key="AnimatErro">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectangle">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="rectangle">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="6.908"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="rectangle">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="6.908"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="lblLoding">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="lblAnimaLoading">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="lblAnimaLoading">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="47.541"/>
+            </DoubleAnimationUsingKeyFrames>
+
+        </Storyboard>
+
+
+
+    </Window.Resources>
+
+    <!--#endregion-->
 
     <Grid>
 
@@ -66,7 +132,7 @@
         </Border>
 
         <!--#endregion-->
-        
+
         <!--#endregion-->
 
         <!--#region Panel Left -->
@@ -85,8 +151,34 @@
         <Label Content="Atendimento ao cliente" HorizontalAlignment="Left" Height="30" Margin="0,71,0,0" VerticalAlignment="Top" Width="372" Foreground="White" FontFamily="Montserrat Medium" FontSize="20" HorizontalContentAlignment="Center"/>
 
         <Border CornerRadius="3" HorizontalAlignment="Left" Height="3" Margin="89,101,0,0" VerticalAlignment="Top" Width="198" Background="White"/>
-        
+
         <!--#endregion-->
+
+        <Rectangle x:Name="rectangle" Fill="#e74c3c" Margin="341.31,191.987" Visibility="Hidden" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Label Content="Erro" x:Name="lblLoding" Foreground="White" FontWeight="SemiBold" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden" Margin="341.31,145.123,341.31,260.876" />
+
+        <Label Content="erro" x:Name="lblAnimaLoading" FontWeight="Normal" Foreground="White" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"  Visibility="Hidden" Height="130" Width="600" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+
+        </Label>
+
 
 
     </Grid>
